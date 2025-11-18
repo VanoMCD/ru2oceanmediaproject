@@ -114,7 +114,7 @@ const ClientsSection = () => {
             </p>
             <div className="flex justify-center">
               <a 
-                href="mailto:o666699999@gmail.com?subject=WEB%20Запрос&body=Здравствуйте!%0A%0AМы%20заинтересованы%20в%20Relax%20контенте%20для%20демонстрации%20на%20...%0AНам%20необходимо%20примерно%20...%20часов%0AТерритории%20использования%20-%20..."
+                href="mailto:9265596699@mail.ru?subject=WEB%20Запрос&body=Здравствуйте!%0A%0AМы%20заинтересованы%20в%20Relax%20контенте%20для%20демонстрации%20на%20...%0AНам%20необходимо%20примерно%20...%20часов%0AТерритории%20использования%20-%20..."
                 className="inline-flex items-center justify-center px-8 py-4 text-lg font-semibold bg-accent text-accent-foreground rounded-lg hover:bg-accent/90 transition-colors duration-300 w-full max-w-md"
               >
                 Отправить запрос
