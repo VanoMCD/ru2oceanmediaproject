@@ -2,7 +2,6 @@ import { Card, CardContent } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { Building2, Waves, Heart, Monitor, Tv, Play, Youtube, Users, Utensils } from "lucide-react";
 import clientsImage from "@/assets/clients-showcase.jpg";
-import { CONTACTS } from "@/config/contacts";
 
 const ClientsSection = () => {
   const clientTypes = [
@@ -115,7 +114,7 @@ const ClientsSection = () => {
             </p>
             <div className="flex justify-center">
               <a 
-                href={`mailto:${CONTACTS.email}?subject=${CONTACTS.emailRequestTemplate.subject}&body=${CONTACTS.emailRequestTemplate.body}`}
+                href="mailto:9265596699@mail.ru?subject=WEB%20Запрос&body=Здравствуйте!%0A%0AМы%20заинтересованы%20в%20Relax%20контенте%20для%20демонстрации%20на%20...%0AНам%20необходимо%20примерно%20...%20часов%0AТерритории%20использования%20-%20..."
                 className="inline-flex items-center justify-center px-8 py-4 text-lg font-semibold bg-accent text-accent-foreground rounded-lg hover:bg-accent/90 transition-colors duration-300 w-full max-w-md"
               >
                 Отправить запрос
@@ -128,7 +127,7 @@ const ClientsSection = () => {
             <h3 className="text-3xl font-bold text-primary text-center mb-8">Направления нашего контента</h3>
             <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
               <a 
-                href={CONTACTS.social.youtube}
+                href="https://www.youtube.com/@OceanMediaProject"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="bg-card border border-accent/20 rounded-lg p-3 text-center hover:border-accent/40 transition-colors duration-300 group"
@@ -138,7 +137,7 @@ const ClientsSection = () => {
                 <p className="text-muted-foreground text-xs">визуальные практики для отдыха и восстановления</p>
               </a>
               <a 
-                href={CONTACTS.social.youtube}
+                href="https://www.youtube.com/@OceanMediaProject"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="bg-card border border-accent/20 rounded-lg p-3 text-center hover:border-accent/40 transition-colors duration-300 group"
@@ -148,7 +147,7 @@ const ClientsSection = () => {
                 <p className="text-muted-foreground text-xs">атмосфера спокойствия и медитации</p>
               </a>
               <a 
-                href={CONTACTS.social.youtube}
+                href="https://www.youtube.com/@OceanMediaProject"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="bg-card border border-accent/20 rounded-lg p-3 text-center hover:border-accent/40 transition-colors duration-300 group"
@@ -158,7 +157,7 @@ const ClientsSection = () => {
                 <p className="text-muted-foreground text-xs">для SPA, йоги и оздоровительных центров</p>
               </a>
               <a 
-                href={CONTACTS.social.youtube}
+                href="https://www.youtube.com/@OceanMediaProject"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="bg-card border border-accent/20 rounded-lg p-3 text-center hover:border-accent/40 transition-colors duration-300 group"
@@ -168,7 +167,7 @@ const ClientsSection = () => {
                 <p className="text-muted-foreground text-xs">фоновая эстетика для гармоничной атмосферы</p>
               </a>
               <a 
-                href={CONTACTS.social.youtube}
+                href="https://www.youtube.com/@OceanMediaProject"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="bg-card border border-accent/20 rounded-lg p-3 text-center hover:border-accent/40 transition-colors duration-300 group"
@@ -178,7 +177,7 @@ const ClientsSection = () => {
                 <p className="text-muted-foreground text-xs">универсальный контент для Digital Signage и ТВ</p>
               </a>
               <a 
-                href={CONTACTS.social.youtube}
+                href="https://www.youtube.com/@OceanMediaProject"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="bg-card border border-accent/20 rounded-lg p-3 text-center hover:border-accent/40 transition-colors duration-300 group"
