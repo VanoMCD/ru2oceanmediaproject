@@ -50,7 +50,7 @@ const Footer = () => {
                 </div>
                 <div className="flex items-center gap-2">
                   <Globe className="h-4 w-4" />
-                  <span>Website: <a href="https://www.oceanmediaproject.com" target="_blank" rel="noopener noreferrer" className="hover:text-white hover:underline transition-colors">www.oceanmediaproject.com</a></span>
+                  <span>Website: <a href="https://www.oceanmediaproject.ru" target="_blank" rel="noopener noreferrer" className="hover:text-white hover:underline transition-colors">www.oceanmediaproject.ru</a></span>
                 </div>
               </div>
             </div>
