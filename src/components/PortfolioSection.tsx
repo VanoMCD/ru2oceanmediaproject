@@ -16,42 +16,6 @@ const PortfolioSection = () => {
     name: "Rutube-канал", 
     link: "https://rutube.ru/channel/61735052/",
     description: "Мы на Rutube"
-  }, {
-    name: "Vimeo",
-    link: "https://vimeo.com/oceanmediaproject",
-    description: "Наша коллекция на Vimeo"
-  }, {
-    name: "Pixtastock",
-    link: "https://creator-en.pixtastock.com/@videoton/footage",
-    description: "Японская платформа для стокового контента"
-  }, {
-    name: "iStockphoto",
-    link: "https://istockphoto.com/ru/portfolio/VIDEODIVE?assettype=film",
-    description: "Профессиональные видеоматериалы"
-  }, {
-    name: "Adobe Stock - Ocean Media",
-    link: "https://stock.adobe.com/contributor/212979533/oceanmediaproject",
-    description: "Ocean Media Project контент"
-  }, {
-    name: "Pond5 - Vmsartstudio",
-    link: "https://pond5.com/artist/vmsartstudio619", 
-    description: "Vmsartstudio619 контент"
-  }, {
-    name: "Adobe Stock - Videodive",
-    link: "https://stock.adobe.com/contributor/205029892/videodive",
-    description: "Качественный контент для креативных проектов"
-  }, {
-    name: "Pond5 - Videoton",
-    link: "https://pond5.com/artist/videoton", 
-    description: "Videoton контент"
-  }, {
-    name: "Shutterstock",
-    link: "https://shutterstock.com/ru/g/vmsartstudio/video?rid=371249757",
-    description: "Премиум-контент для профессионалов"
-  }, {
-    name: "Pond5 - Videodive",
-    link: "https://pond5.com/artist/videodive", 
-    description: "Videodive контент"
   }];
 
   return <section id="platforms" className="pt-1 pb-5 bg-gradient-portfolio">
